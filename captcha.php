@@ -1,7 +1,7 @@
 <?php
 session_start();
 header ("Content-type: image/png");
-
+//字符有点少
 $str = "1,3,4,6,7,9,A,C,D,E,F,H,K,M,N,P,Q,R,T,W,X,Y";      //要显示的字符，可自己进行增删
 $list = explode(",", $str);
 $cmax = count($list) - 1;
